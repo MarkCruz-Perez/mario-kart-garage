@@ -1,4 +1,8 @@
 package com.pluralsight;
 
-public class Valuable {
+import java.math.BigDecimal;
+
+public interface Valuable
+{
+    public BigDecimal getValue();
 }
